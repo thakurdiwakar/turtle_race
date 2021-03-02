@@ -28,31 +28,31 @@ for sp in range(15): #loop for creating the lines labelled with numbers
  #forward at 20 units
 
 
-ankur = Turtle() #inheriting the turtle
-ankur.color('yellow') #setting the color to green for the first turtle
-ankur.shape('turtle') #setting the shape to "turtle"
-ankur.penup() #not ready to draw
-ankur.goto(-160,100) #positioning the turtle
-ankur.pendown() #ready todraw
+kaif = Turtle() #inheriting the turtle
+kaif.color('yellow') #setting the color to green for the first turtle
+kaif.shape('turtle') #setting the shape to "turtle"
+kaif.penup() #not ready to draw
+kaif.goto(-160,100) #positioning the turtle
+kaif.pendown() #ready todraw
 
 
-gajurel = Turtle() #inheriting another turtle
-gajurel.color('black') #setting the color og the turtle to red
-gajurel.shape('turtle') #declaring the shape of the turtle to "turtle"
-gajurel.penup() #not ready to draw
-gajurel.goto(-160,80) #positioning
-gajurel.pendown() #ready to draw
+hrithik = Turtle() #inheriting another turtle
+hrithik.color('black') #setting the color og the turtle to red
+hrithik.shape('turtle') #declaring the shape of the turtle to "turtle"
+hrithik.penup() #not ready to dra
+hrithik.goto(-160,80) #positioning
+hrithik.pendown() #ready to draw
 
-turtleVar = Turtle() #inheriting the last turtle
-turtleVar.color('blue') #setting the color of the turtle as "blue"
-turtleVar.shape('turtle') #declaring the shape of the turtle
-turtleVar.penup() #not ready to draw
-turtleVar.goto(-160,60) #positioning
-turtleVar.pendown() #ready
+diwVar = Turtle() #inheriting the last turtle
+diwVar.color('blue') #setting the color of the turtle as "blue"
+diwVar.shape('turtle') #declaring the shape of the turtle
+diwVar.penup() #not ready to draw
+diwVar.goto(-160,60) #positioning
+diwVar.pendown() #ready
 
 for turn in range(100): #loop for the racew
-  ankur.forward(randint(1,5)) #setting the speed randomly with the "random" module
-  gajurel.forward(randint(1,5)) #setting the speed randomly with the "random" module
-  turtleVar.forward(randint(1,5)) #setting the speed randomly with the "random" module
+  kaif.forward(randint(1,5)) #setting the speed randomly with the "random" module
+  hrithik.forward(randint(1,5)) #setting the speed randomly with the "random" module
+  diwVar.forward(randint(1,5)) #setting the speed randomly with the "random" module
 
 turtle.done()
